@@ -13,9 +13,19 @@ hr{
 h1{
   color: #66BFBF;
 }
-/* h3{
+h3{
   color: #66BFBF;
-} */
+}
+
+/*
+    The are two special types of selectors, class selectors and id selectors.
+        >> The two have a similarity between them and that is
+            if you explicitly define the style for a particular tag with tag selectors and class/id
+            selectors, then the tag selector is overwritten by the class/id selectors.
+        >> The difference is that while defining, class is defined with a "." and id with a "#"
+        >> The next difference is, with id selectors you can define only one instance of it, while
+            for class, you may create as many instances you want.          
+*/
 
 /******************************************** CLASS SELECTOR ****************************************/
 
@@ -29,4 +39,9 @@ h1{
 
 .skills{
   color: #5AA897;
+}
+
+/******************************************** ID SELECTOR ****************************************/
+#heading{
+  color: #19456B;
 }
