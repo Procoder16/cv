@@ -17,6 +17,10 @@ h3{
   color: #66BFBF;
 }
 
+img:hover{
+  background-color: gold;
+}
+
 /*
     The are two special types of selectors, class selectors and id selectors.
         >> The two have a similarity between them and that is
@@ -24,7 +28,8 @@ h3{
             selectors, then the tag selector is overwritten by the class/id selectors.
         >> The difference is that while defining, class is defined with a "." and id with a "#"
         >> The next difference is, with id selectors you can define only one instance of it, while
-            for class, you may create as many instances you want.          
+            for class, you may create as many instances you want.
+        >> The next is that you can have more than 1 class for a particular element but only 1 id.
 */
 
 /******************************************** CLASS SELECTOR ****************************************/
